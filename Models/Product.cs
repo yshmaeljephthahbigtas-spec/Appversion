@@ -12,6 +12,11 @@ namespace lol.Models
 
         public int Price { get; set; }
 
+        //new sh
+        public string Description { get; set; } = "";
+
+        public string UnitMeasure { get; set; } = "";
+
     }
 
 }
